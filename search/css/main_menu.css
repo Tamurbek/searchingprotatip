@@ -1,0 +1,51 @@
+.bg-orchid{
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 0%;
+    width: 150px !important;
+    margin: 0% !important;
+    text-align: center !important;
+    color: white;
+    &:active{
+        background-color: purple;
+        color: white;
+    }
+    &:hover{
+        background-color: purple;
+        color: white;
+    }
+}
+.bg-orchid-1{
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 0%;
+    width: 300px !important;
+    margin: 0% !important;
+    margin-left: -300px !important;
+    text-align: center !important;
+    color: white;
+    &:active{
+        background-color: purple;
+        color: white;
+    }
+    &:hover{
+        background-color: purple;
+        color: white;
+    }
+}
+.row{
+    width: 100%;
+    display: flex;
+}
+.container{
+    width: 100%;
+}
+.dropdown-menu{
+    width: 300px;
+    height: auto;
+    background-color: silver;
+    text-align: center !important;
+    .dropdown-item{
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,33 @@
+.count {
+  color: rgb(34, 5, 5);
+  font-weight: bold;
+  font-size: 40px;
+  font-family: cursive;
+  text-shadow: 1px 1px black;
+  border-radius: 5px;
+  font-weight: lighter;
+}
+#resurs{
+    background-image:  url("../imegs/background_counter.jpg");
+    background-size: 100% 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.count_title{
+    left: 5%;
+    text-align: start;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+}
+.count_1{
+    background-color: white;
+}
+.count_2{
+    text-transform: uppercase;
+    font-size: smaller;
+}
+.counter_1{
+    display: flex;
+    justify-content: space-around;
+}
